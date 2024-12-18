@@ -1,0 +1,3 @@
+# Unhandled Promise Rejection in Express.js Route
+
+This repository demonstrates a common error in Express.js applications: unhandled promise rejections or improper error handling during database operations.  The code in `bug.js` lacks proper error handling, leading to crashes or unexpected behavior when database queries fail. The solution in `bugSolution.js` demonstrates how to correctly handle errors and prevent crashes.
